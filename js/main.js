@@ -61,7 +61,13 @@ $(document).ready(function(){
     });
 
 
-
+    $('.subir').click(function(){
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: 0
+        },500);
+        return false;
+    });
 
 });
 

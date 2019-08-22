@@ -202,3 +202,10 @@ background-color: red;
 #to-blue{
 background-color: blue;
 }
+
+.subir{
+	color:white;
+	text-decoration: none;
+	display: block;
+	float: right;
+}
