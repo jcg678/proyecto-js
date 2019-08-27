@@ -111,7 +111,9 @@ if(window.location.href.indexOf('contact')> -1){
     });
 
   $.validate({
-    lang : 'es'
+    lang : 'es',
+    errorMessagePosition: 'top',
+    scrollToTopOnError: true
   });
 }
 
